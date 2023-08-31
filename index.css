@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    font-family: sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+h1 {
+    text-align: center;
+    animation: color 8s infinite;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.center {
+    text-align: center
+}
+
+a {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+@keyframes color {
+    0% {color:red}
+    10% {color: orange}
+    20% {color:yellow}
+    30% {color:lime}
+    40% {color:blue}
+    50% {color:purple}
+    60% {color:red}
+    70% {color: orange}
+    80% {color:yellow}
+    90% {color:green}
+    100% {color:blue}
+}
+
+div {
+    text-align: center;
+    color: red;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    animation: color 4s infinite;
+}
+
+h3 {
+    text-align: center;
+}
+
+ul {
+    text-decoration: none;
+}
+
